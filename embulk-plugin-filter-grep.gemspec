@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name          = "embulk-plugin-filter-grep"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
 
   gem.summary       = %q{Embulk Fileter Plugin Grep}
   gem.description   = gem.summary
@@ -9,8 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/tadaichiro/embulk-plugin-filter-grep"
   gem.license       = "MIT"
 
-  gem.files         = `git ls-files`.split("\n") + Dir["classpath/*.jar"]
-  gem.require_paths = ["lib"]
+  gem.files         = [ "lib/embulk/filter_grep.rb",  "README.md" ]
 
   gem.add_development_dependency "bundler", "~> 1.8"
   # spec.add_development_dependency "rake", "~> 10.0"
