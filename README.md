@@ -4,15 +4,17 @@ data extraction
 
 no filter:
 
+```
 embulk
-
 embulk jruby
-
 embulk core
+```
 
 filter grep: jruby
 
+```
 embulk jruby
+```
 
 ## Configuration
 
