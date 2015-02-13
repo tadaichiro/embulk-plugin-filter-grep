@@ -1,7 +1,7 @@
 module Embulk
   module Plugin
 
-    class FilterExample < FilterPlugin
+    class FilterGrep < FilterPlugin
 
       Plugin.register_filter('grep', self)
 
