@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name          = "embulk-plugin-filter-grep"
-  gem.version       = "0.0.2"
+  gem.version       = "0.0.3"
 
   gem.summary       = %q{Embulk Fileter Plugin Grep}
   gem.description   = gem.summary
