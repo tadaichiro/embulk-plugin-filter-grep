@@ -12,9 +12,7 @@ module Embulk
 
         out_columns = in_schema
 
-        puts "Extranction filter started."
         yield(task, out_columns)
-        puts "Extranction filter finished."
       end
 
       def initialize(task, in_schema, out_schema, page_builder)
